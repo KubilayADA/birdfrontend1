@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: birdfrontend
+    env: node
+    buildCommand: "npm install --legacy-peer-deps"
+    startCommand: "npm run start"
+    branch: main
